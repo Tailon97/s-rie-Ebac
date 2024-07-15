@@ -1,0 +1,261 @@
+body{
+    .space-grotesk-<uniquifier>
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color: #2f3640;
+    color: #f5f6fa;
+}
+
+main{
+    padding: 3% 5% 3% 5%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cab1{
+    background-image: url(streaming.png);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.cab1 nav ul{
+    margin: 10px;
+    text-align: right;
+}
+
+.cab1 nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.cab1 nav a{
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing:2px ;
+
+}
+
+.content h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.content p{
+    padding: 16px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    text-transform: uppercase;
+    text-shadow: #2f3640;
+    border-bottom: 2px solid brown;
+
+}
+
+.container{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(37, 29, 100);
+    border: 3px solid brown;
+    margin: 20px 10px 10px 20px;
+    width: 400px;
+}
+
+
+.container img{
+height: 450px;
+width: 100%;
+}
+
+.container h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0;
+}
+
+.container p{
+    text-align: justify;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+
+.container a{
+    background-color: rgba(0, 0, 0, .3);
+    text-align:;
+    padding: 10px;
+    margin: 10px 10px 5px 150px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing:2px;
+}
+
+.container a:hover{
+    color: black;
+}
+
+.container2{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(206, 161, 25);
+    border: 3px solid brown;
+    width: 400px;
+    margin: 20px 10px 10px 20px;
+}
+
+.container2 img {
+    height: 450px;
+    width: 100%;
+}
+
+.container2 h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0;
+}
+
+.container2 p{
+    text-align: justify;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+
+.container2 a{
+    background-color: rgba(0, 0, 0, .3);
+    text-align:;
+    padding: 10px;
+    margin: 10px 10px 5px 150px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing:2px ;
+}
+
+.container2 a:hover{
+    color: black;
+}
+
+.container3{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+    border: 3px solid brown;
+    width: 400px;
+    margin: 20px 10px 10px 20px;
+}
+
+.container3 img {
+    height: 450px;
+    width: 100%;
+}
+
+.container3 h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0;
+}
+
+.container3 p{
+    text-align: justify;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+
+.container3 a{
+    background-color: rgba(0, 0, 0, .3);
+    text-align:;
+    padding: 10px;
+    margin: 10px 10px 5px 150px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing:2px ;
+}
+
+.container3 a:hover{
+    color: black;
+}
+
+#contact .container4{
+    display: block;
+}
+
+
+.container4 h3{
+    margin: 0;
+}
+
+.contact-methods{
+    display: inflex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form textarea{
+    resize: none;
+    height: 180px; 
+}
+
+form button{
+    background-color: #ccc ;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    color: black;
+}
+
+input:focus, textarea:focus{
+    outline-color:purple ;
+}
+
+footer{
+    text-align: center;
+    background-color: #ccc;
+    color: brown;
+    padding: 12px 0;
+    margin-top: 10px;
+
+}
